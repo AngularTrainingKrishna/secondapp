@@ -1,0 +1,13 @@
+<p>About Component</p>
+<!-- <input type="button" class="btn btn-success" (click)="start()" 
+value="Click To Execute Child Component" />
+<br />
+<h3>About Child Component </h3>  -->
+
+
+
+<a class="btn btn-success" [routerLink]="['aboutchild']" routerLinkActive="active" >About Child 1</a>
+<a class="btn btn-success" [routerLink]="['aboutchild2']" routerLinkActive="active" >About Child 2</a>
+
+<router-outlet></router-outlet>
+
